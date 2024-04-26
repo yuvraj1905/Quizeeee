@@ -9,10 +9,15 @@
 - Supports pagination for navigating through questions.
 - Users can jump/navigate to any question from any point and choose to submit answers once they're at the last question.
 
+
+### Deployed Link:
+[Play Now](https://quizeeeyuvraj.netlify.app)
+
 ### How to Use:
 1. Clone the repository to your local machine.
 2. Open the index.html file in your web browser.
 3. Start answering the quiz questions!
+
 
 ### Technologies Used:
 - HTML
@@ -20,4 +25,6 @@
 - JavaScript
 
 ### Credits:
-- This project utilizes data from [the-trivia-api.com](https://the-trivia-api.
+- This project utilizes data from [the-trivia-api.com](https://the-trivia-api.com/).
+- Shimmer effect inspired by [Shimmer.css](https://github.com/RyanZim/Shimmer.css).
+
