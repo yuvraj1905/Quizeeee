@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="headerText">Quizeeee ! <span id="headerTextLite">Test your skills</span></h1>
+    <div id="questions_container">
+        <p id="questions_tagline">Test your knowledge with these ten handpicked questions. The most frequently asked ones in job interviews. If you can get 10/10 on this quiz, you'll be ready for your next job!
+        </p>
+        <hr>
+        <div class="q-index_container">
+           <li id="0"><span>Question</span><span>1</span></li>
+           <li id="1"><span>Question</span><span>2</span></li>
+           <li id="2"><span>Question</span><span>3</span></li>
+           <li id="3"><span>Question</span><span>4</span></li>
+           <li id="4"><span>Question</span><span>5</span></li>
+           <li id="5"><span>Question</span><span>6</span></li>
+           <li id="6"><span>Question</span><span>7</span></li>
+           <li id="7"><span>Question</span><span>8</span></li>
+           <li id="8"><span>Question</span><span>9</span></li>
+           <li id="9"><span>Question</span><span>10</span></li>
+        </div>
+        <div id="shimmerQuestions" class="currentQuestion">
+            <h3>Loading Question...</h3>
+            <p id="shimmerQuestion" class="blinkk"></p>
+            <p class="shimmerOptions"><span class="blinkk"></span><span class="blinkk"></span></p>
+            <p class="shimmerOptions"><span class="blinkk"></span><span class="blinkk"></span></p>
+            <p class="shimmerOptions"><span class="blinkk"></span><span class="blinkk"></span></p>
+            <p class="shimmerOptions"><span class="blinkk"></span><span class="blinkk"></span></p>
+        </div>
+
+        <div style="display: none;" id="questionContainers" class="currentQuestion">
+
+        </div>
+
+        <div id="btns">
+            <button id="prevBtn" style="display: none;">Previous question</button>
+            <button id="nextBtn">Next question</button>
+        </div>
+        <button id="submit" style="display: none;">Submit Answers</button>
+        
+        <div id="result" style="display: none;"></div>
+
+    </div>
+    <script type="module" src="./app.js"></script>
+    <!-- <script type="module" src="./utils.js"></script> -->
+    <!-- <script src="./test.js"></script> -->
+</body>
+</html>
